@@ -1,0 +1,16 @@
+body{
+    background-image: url('../A_black_image.jpg.webp');
+    background-size: cover;
+    margin-top: 25%;
+    text-align: center;
+}
+.username  , .password {
+    color: rgb(51, 165, 29);
+    text-align: center;
+    margin: auto;
+    color: rgb(23, 189, 31);
+}
+.register-link {
+    text-align: center;
+    color: rgb(51, 165, 29);
+}

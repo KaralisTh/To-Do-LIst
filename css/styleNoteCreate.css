@@ -1,0 +1,112 @@
+body {   
+    background-image: url('../A_black_image.jpg.webp');
+    background-size: cover;
+    margin: 0%;
+    color: rgb(52, 196, 52);
+    text-align: center;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    text-align: center;
+}
+
+.navbar a,.dropdown3 .dropbtn3  {
+    float: left;
+    font-size: 16px;
+    color: rgb(52, 196, 52);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown3 {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn, .dropdown2 .dropbtn2, .dropdown3 .dropbtn3 {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(52, 196, 52);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown3-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown3-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown3-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown3:hover .dropdown3-content {
+    display: block;
+}
+
+
+.title {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: rgb(52, 196, 52);
+    text-align: center;
+}
+
+.content {
+    padding: 15px;
+    margin-bottom: 5%;
+    color: rgb(52, 196, 52);
+    text-align: center;
+}
+
+.editButton {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+.deleteButton {
+    background-color: #cc0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+  .createButton {
+    background-color: #1a7ac9;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+
+  }
